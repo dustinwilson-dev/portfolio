@@ -39,9 +39,7 @@ export default function Home() {
         <header className="flex-1 lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-              <Link href="/">
-                <a>Dustin Wilson</a>
-              </Link>
+              <Link href="/">Dustin Wilson</Link>
             </h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
               Full Stack Web Developer
@@ -50,7 +48,7 @@ export default function Home() {
               Creating fast, secure, and scalable web experiences from frontend
               to backend.
             </p>
-            <nav className="mt-16 w-max">
+            <nav className="mt-16 w-max nav hidden lg:block">
               <ul>
                 <li>
                   <a
@@ -240,16 +238,17 @@ export default function Home() {
           </ul>
         </header>
 
-        <main className="flex-1 flex gap-16 md:gap-24 lg:gap-36 flex-col text-[rgba(255,255,255,.6)] pt-24 lg:w-[50%] lg:py-24">
+        <main className="flex-1 flex gap-8 md:gap-12 lg:gap-18 flex-col text-[rgba(255,255,255,.6)] pt-24 lg:w-[50%] lg:py-24">
           <section
             id="about"
             className="scroll-mt-16 lg:scroll-mt-24"
             aria-label="About"
           >
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"></div>
-            <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-              About
-            </h2>
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                About
+              </h2>
+            </div>
             <div>
               <p className="mb-4">
                 I&apos;m a full-stack web developer with a focus on building
@@ -268,15 +267,21 @@ export default function Home() {
               </p>
             </div>
           </section>
+          <hr className="opacity-30" />
 
           <section
             id="experience"
             className="scroll-mt-16 lg:scroll-mt-24"
             aria-label="Experience"
           >
-            <ol className="group/list">
-              <li className="mb-12">
-                <div className="group cursor-pointer relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                Experience
+              </h2>
+            </div>
+            <ol className="group/list flex flex-col gap-12">
+              <li>
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
                     2023 — Present
@@ -324,8 +329,8 @@ export default function Home() {
                 </div>
               </li>
 
-              <li className="mb-12">
-                <div className="group cursor-pointer relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+              <li>
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
                     2022 — 2024
@@ -366,7 +371,7 @@ export default function Home() {
                 <span>
                   View Full&nbsp;
                   <span className="inline-block">
-                    Résumé
+                    Resume
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -381,6 +386,7 @@ export default function Home() {
               </a>
             </div>
           </section>
+          <hr className="opacity-30" />
 
           <section
             id="projects"
@@ -393,8 +399,8 @@ export default function Home() {
               </h2>
             </div>
             <div>
-              <ul className="group/list">
-                <li className="mb-12">
+              <ul className="group/list flex flex-col gap-12">
+                <li>
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                     <div className="z-10 sm:order-2 sm:col-span-6">
@@ -424,7 +430,7 @@ export default function Home() {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Test
+                        Built a conversion-focused marketing homepage for an IT services firm—clarified offerings, added social proof, and streamlined the contact flow to turn visits into leads.
                       </p>
                       <ul
                         className="mt-2 flex flex-wrap"
@@ -505,15 +511,21 @@ export default function Home() {
               </ul>
             </div>
           </section>
+          <hr className="opacity-30" />
 
           <section
             id="education"
             className="scroll-mt-16 lg:scroll-mt-24"
             aria-label="education"
           >
-            <ol className="group/list">
-              <li className="mb-12">
-                <div className="group cursor-pointer relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                Education
+              </h2>
+            </div>
+            <ol className="group/list flex flex-col gap-12">
+              <li>
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
                     2021 — 2024
@@ -550,8 +562,8 @@ export default function Home() {
                 </div>
               </li>
 
-              <li className="mb-12">
-                <div className="group cursor-pointer relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+              <li>
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
                     2020 — 2022
@@ -598,6 +610,7 @@ export default function Home() {
               </li>
             </ol>
           </section>
+          <hr className="opacity-30" />
 
           <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
             <p>
