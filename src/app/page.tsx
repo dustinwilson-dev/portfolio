@@ -21,7 +21,12 @@ export default function Home() {
   const active = useScrollSpy(sections);
 
   return (
-    <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 relative">
+    <div className="leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 relative">
+      <div id="starBackground">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+      </div>
       {/* top cutoff */}
       {/* <div className="fixed top-[35%] left-0 right-0 h-0.5 bg-red-500 z-[9999] pointer-events-none" /> */}
 
@@ -31,7 +36,7 @@ export default function Home() {
       <div
         className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
         style={{
-          background: `radial-gradient(600px at ${coords.x}px ${coords.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+          background: `radial-gradient(400px at ${coords.x}px ${coords.y}px, rgba(107, 73, 132, 0.15), transparent 80%)`,
         }}
       ></div>
 
