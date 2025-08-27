@@ -25,7 +25,7 @@ export default function Home() {
       <div id="starBackground">
         <div id="stars"></div>
         <div id="stars2"></div>
-        <div id="stars3"></div>
+        {/* <div id="stars3"></div> */}
       </div>
       {/* top cutoff */}
       {/* <div className="fixed top-[35%] left-0 right-0 h-0.5 bg-red-500 z-[9999] pointer-events-none" /> */}
