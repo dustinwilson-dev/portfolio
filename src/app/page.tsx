@@ -435,7 +435,10 @@ export default function Home() {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Built a conversion-focused marketing homepage for an IT services firm—clarified offerings, added social proof, and streamlined the contact flow to turn visits into leads.
+                        Built a conversion-focused marketing homepage for an IT
+                        services firm—clarified offerings, added social proof,
+                        and streamlined the contact flow to turn visits into
+                        leads.
                       </p>
                       <ul
                         className="mt-2 flex flex-wrap"
@@ -537,20 +540,17 @@ export default function Home() {
                   </header>
                   <div className="z-10 sm:col-span-6">
                     <h3 className="font-medium leading-snug text-slate-200">
-                      Associate of Computer Science · Anne Arundle Community
-                      College
+                      Associate of Science, Computer Science · Anne Arundle
+                      Community College · Summa Cum Laude, GPA: 4.0
                     </h3>
                     <p className="mt-2 text-sm leading-normal">
-                      Completed a series of computer science courses focused on
-                      object-oriented programming, secure software design, and
-                      data structures using Java and C++. Gained hands-on
-                      experience with recursion, exception handling, file I/O,
-                      and algorithm development. Learned to analyze
-                      specifications, design UML diagrams, and apply best
-                      practices in modular, secure coding. Built and implemented
-                      common data structures like stacks, queues, linked lists,
-                      and trees. Emphasis was placed on maintainable, efficient
-                      solutions and real-world problem-solving.
+                      Completed coursework focused on object-oriented
+                      programming, secure software design, and data structures
+                      using Java and C++. Built and implemented stacks, queues,
+                      linked lists, and trees while applying recursion,
+                      exception handling, file I/O, and algorithm development.
+                      Gained experience designing UML diagrams with an emphasis
+                      on modular, secure, and efficient coding practices.
                     </p>
                     <ul className="mt-4 flex flex-wrap gap-1.5">
                       <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
@@ -619,7 +619,7 @@ export default function Home() {
 
           <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
             <p>
-              Design inspired by{" "}Brittany Chiang
+              Design inspired by Brittany Chiang
               {/* <a
                 href="https://brittanychiang.com/"
                 className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
