@@ -26,7 +26,7 @@ export default function Home() {
       {/* <div className="fixed top-[35%] left-0 right-0 h-0.5 bg-red-500 z-[9999] pointer-events-none" /> */}
 
       {/* bottom cutoff */}
-      {/* <div className="fixed bottom-[60%] left-0 right-0 h-0.5 bg-blue-500 z-[9999] pointer-events-none" /> */}
+      {/* <div className="fixed bottom-[60%] left-0 right-0 h-0.5 bg-blue-500 z-[9999] pointer-events-none" /> s*/}
 
       <div
         className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
@@ -614,8 +614,8 @@ export default function Home() {
 
           <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
             <p>
-              Design inspired by{" "}
-              <a
+              Design inspired by{" "}Brittany Chiang
+              {/* <a
                 href="https://brittanychiang.com/"
                 className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
                 target="_blank"
@@ -623,7 +623,7 @@ export default function Home() {
                 aria-label="Brittany Chang Website (opens in a new tab)"
               >
                 Brittany Chiang
-              </a>
+              </a> */}
               . Coded in{" "}
               <a
                 href="https://code.visualstudio.com/"
