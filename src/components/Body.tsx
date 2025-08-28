@@ -1,0 +1,91 @@
+import React from "react";
+import Education from "./Education";
+import Projects from "./Projects";
+import Experience from "./Experience";
+import About from "./About";
+
+const Body = () => {
+  return (
+    <main className="flex-1 flex gap-8 md:gap-12 lg:gap-18 flex-col text-[rgba(255,255,255,.6)] pt-24 lg:w-[50%] lg:py-24">
+      <About />
+      <hr className="opacity-30" />
+
+      <Experience />
+      <hr className="opacity-30" />
+
+      <Projects />
+      <hr className="opacity-30" />
+
+      <Education />
+      <hr className="opacity-30" />
+
+      <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+        <p>
+          Design inspired by Brittany Chiang
+          {/* <a
+                href="https://brittanychiang.com/"
+                className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Brittany Chang Website (opens in a new tab)"
+              >
+                Brittany Chiang
+              </a> */}
+          . Coded in{" "}
+          <a
+            href="https://code.visualstudio.com/"
+            className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Visual Studio Code (opens in a new tab)"
+          >
+            Visual Studio Code
+          </a>
+          . Built with{" "}
+          <a
+            href="https://nextjs.org/"
+            className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Next.js (opens in a new tab)"
+          >
+            Next.js
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://tailwindcss.com/"
+            className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Tailwind CSS (opens in a new tab)"
+          >
+            Tailwind CSS
+          </a>
+          , deployed with{" "}
+          <a
+            href="https://vercel.com/"
+            className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Vercel (opens in a new tab)"
+          >
+            Vercel
+          </a>
+          . All text is set in the{" "}
+          <a
+            href="https://vercel.com/font"
+            className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Geist (opens in a new tab)"
+          >
+            Geist
+          </a>{" "}
+          typeface.
+        </p>
+      </footer>
+    </main>
+  );
+};
+
+export default Body;
