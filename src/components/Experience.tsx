@@ -96,7 +96,7 @@ const Experience = () => {
           href="/DustinWilson-Resume.pdf"
           target="_blank"
           rel="noreferrer noopener"
-          aria-label="View Full Résumé (opens in a new tab)"
+          aria-label="View Full Resume (opens in a new tab)"
         >
           <span>
             View Full&nbsp;
