@@ -4,32 +4,32 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col items-center gap-2">
+    <section className="flex flex-col items-center gap-2">
       <span className="text-2xl font-bold">Lets Talk</span>
-      <form action="" className="flex flex-col items-center gap-2 w-[75%]">
+      <form action="" className="flex flex-col items-center gap-6 w-[75%]">
         <input
-          className="border-1 w-full rounded-3xl border-[rgba(255,255,255,.5)] p-2"
+          className="border-b-1 w-full border-white/50 p-2"
           type="text"
           name="name"
           placeholder="Your Name"
           required
         />
         <input
-          className="border-1 w-full rounded-3xl border-[rgba(255,255,255,.5)] p-2"
+          className="border-b-1 w-full border-white/50 p-2"
           type="email"
           name="email"
           placeholder="Your Email"
           required
         />
         <textarea
-          className="border-1 w-full rounded-3xl border-[rgba(255,255,255,.5)] p-2"
+          className="border-b-1 w-full border-white/50 p-2"
           name="message"
           placeholder="Your Message"
           required
         />
-        <button type="submit" className="hover:cursor-pointer">Send</button>
+        <button type="submit" className="w-full m-4 border-2 rounded-2xl p-3 backdrop-blur-3xl hover:cursor-pointer hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] transition-all">Send</button>
       </form>
-    </div>
+    </section>
   );
 };
 
