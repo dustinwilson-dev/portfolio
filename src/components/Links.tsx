@@ -12,7 +12,7 @@ const Links = () => {
     setTimeout(() => setCopied(false), 2000);
   }
   return (
-    <ul className="flex flex-col gap-3">
+    <ul className="flex flex-col gap-3 mt-8">
       <li className="flex gap-3 items-center">
         <a
           className="inline-flex items-baseline leading-tight hover:text-teal-300 focus-visible:text-teal-300 font-semibold group/link text-base"
