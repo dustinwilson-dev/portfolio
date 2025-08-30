@@ -92,7 +92,7 @@ const Links = () => {
         <div className="w-0.5 self-stretch bg-white/20"></div>
         <div className="group relative">
           <button onClick={copyEmail} className="hover:cursor-pointer">dustinwilson.dev@gmail.com</button>
-          <div className={`absolute left-1/2 top-full -translate-x-1/2 mt-1 text-sm ${copied ? "" : "invisible"}`}>
+          <div className={`absolute left-1/2 top-full -translate-x-1/2 mt-1 text-sm transition-opacity duration-125 ${copied ? "opacity-100 pointer-events-auto select-auto" : "opacity-0 pointer-events-none select-none"}`}>
             <p>Copied!</p>
           </div>
         </div>
