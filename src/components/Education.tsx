@@ -75,13 +75,19 @@ const Education = () => {
                   Python
                 </li>
                 <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                  SQL
+                </li>
+                <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                  NoSQL
+                </li>
+                <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                   HTML & CSS
                 </li>
                 <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                  Bootstrap
+                  Javascript
                 </li>
                 <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                  Database Integration
+                  Bootstrap
                 </li>
                 <li className="items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                   User Authentication

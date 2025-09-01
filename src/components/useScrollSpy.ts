@@ -15,7 +15,6 @@ export function useScrollSpy(ids: string[]) {
             (a.intersectionRatio > b.intersectionRatio ? a : b)
           );
           setActiveId((top.target as HTMLElement).id);
-          console.log((top.target as HTMLElement).id);
         }
       },
       {
