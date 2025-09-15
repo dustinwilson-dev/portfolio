@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@plugin 'tailwind-scrollbar';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -89,4 +91,32 @@ body {
   to {
     transform: translateY(-2000px);
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8885;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#gradient {
+  scrollbar-gutter: stable overlay;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: clip !important;
+  scroll-behavior: smooth !important;
 }

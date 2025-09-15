@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dustin Wilson | Portfolio",
-  description: "Portfolio of Dustin Wilson, a full-stack web developer specializing in React, Next.js, Node.js, and modern web solutions.",
+  description:
+    "Portfolio of Dustin Wilson, a full-stack web developer specializing in React, Next.js, Node.js, and modern web solutions.",
 };
 
 export default function RootLayout({
@@ -24,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth" >
+    <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased pr-1`}
       >
         {children}
         <Analytics />
