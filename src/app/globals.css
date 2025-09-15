@@ -94,14 +94,12 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 50px solid transparent;
+  margin-block: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
