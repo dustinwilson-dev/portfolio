@@ -21,7 +21,7 @@ const Experience = () => {
             </header>
             <div className="z-10 sm:col-span-6">
               <h3 className="font-medium leading-snug text-slate-200">
-                Web/Application Lead Developer · Blue Ribbon IT Services
+                Lead Full Stack Developer · Blue Ribbon IT Services
               </h3>
               <p className="mt-2 text-sm leading-normal">
                 Led the full-stack redevelopment of a legacy JavaScript/React
@@ -71,7 +71,7 @@ const Experience = () => {
             </header>
             <div className="z-10 sm:col-span-6">
               <h3 className="font-medium leading-snug text-slate-200">
-                React Web Developer · Involution AI
+                Web Developer · Involution AI
               </h3>
               <p className="mt-2 text-sm leading-normal">
                 Developed responsive React interfaces and reusable components

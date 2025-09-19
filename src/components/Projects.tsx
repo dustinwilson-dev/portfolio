@@ -48,6 +48,12 @@ const Projects = () => {
                   Built a conversion-focused marketing homepage for an IT
                   services firm—clarified offerings, added social proof, and
                   streamlined the contact flow to turn visits into leads.
+                  Rebuilt the site with Next.js + TypeScript, improving load
+                  times by 35% and boosting Lighthouse scores from 68 → 99.
+                  Added Cloudflare + Upstash rate limiting to cut malicious
+                  traffic by ~80%, improving reliability, and shipped multiple
+                  UI improvements based on user feedback. Deployed with AWS
+                  Amplify.
                 </p>
                 <ul
                   className="mt-2 flex flex-wrap"
