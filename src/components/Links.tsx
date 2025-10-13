@@ -114,7 +114,7 @@ const Links = () => {
         </a>
         <div className="w-0.5 self-stretch bg-white/20"></div>
         <div className="group relative">
-          <button onClick={copyEmail} className="hover:cursor-pointer">
+          <button onClick={copyEmail} className="hover:cursor-pointer hover:text-slate-200">
             dustinwilson.dev@gmail.com
           </button>
           <div
